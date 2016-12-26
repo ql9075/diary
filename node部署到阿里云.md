@@ -24,15 +24,21 @@ npm -g install express pm2
 
 ### 建立超级链接, 不然 sudo node 时会报 "command not found"
 > sudo ln -s /usr/local/bin/node /usr/bin/node
+
 > sudo ln -s /usr/local/lib/node /usr/lib/node
+
 > sudo ln -s /usr/local/bin/npm /usr/bin/npm
+
 > sudo ln -s /usr/local/bin/node-waf /usr/bin/node-waf
+
 > sudo ln -s /usr/local/bin/pm2 /usr/bin/pm2
 
 ## 安装mongodb
-软件安装位置：/usr/local/mongodb
-数据存放位置：/var/mongodb/data
-日志存放位置：/var/mongodb/logs
+> 软件安装位置：/usr/local/mongodb
+
+> 数据存放位置：/var/mongodb/data
+
+> 日志存放位置：/var/mongodb/logs
 
 ###首先下载安装包
 cd /usr/local
