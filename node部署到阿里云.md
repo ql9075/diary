@@ -40,7 +40,22 @@ npm -g install express pm2
 
 > 日志存放位置：/var/mongodb/logs
 
-###首先下载安装包
-cd /usr/local
-wget http://fastdl.mongodb.org/linux/mongodb-linux-x86_64-2.4.9.tgz
+### 首先下载安装包
+> cd /usr/local
+
+> wget http://fastdl.mongodb.org/linux/mongodb-linux-x86_64-3.4.1.tgz
+
+### 解压安装包，重命名文件夹为mongodb
+> tar zxvf mongodb-linux-x86_64-3.4.1.tgz
+
+> mv mongodb-linux-x86_64-3.4.1 mongodb
+
+
+### 创建数据和日志存放目录
+> mkdir /var/mongodb
+
+> mkdir /var/mongodb/data
+
+> mkdir /var/mongodb/logs
+
 
